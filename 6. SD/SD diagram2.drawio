@@ -1,0 +1,90 @@
+<mxfile host="Electron" modified="2024-05-13T14:43:07.505Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.2.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="q0vlxuUsTJsxi4uyOTUa" version="24.2.5" type="device">
+  <diagram name="Page-1" id="O-xKSkLPYl-1Bb56oxQh">
+    <mxGraphModel dx="1050" dy="629" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yFhiEoL9sG4I5cicUTSf-3" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;fillColor=#6BB1D2;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="84" y="28" width="22" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="yFhiEoL9sG4I5cicUTSf-4" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;System&lt;/b&gt;&lt;/font&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#6BB1D2;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="368" y="28" width="100" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="ndBlIhgWlCvM5-CdHkPS-9" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#6BB1D2;" parent="yFhiEoL9sG4I5cicUTSf-4" vertex="1">
+          <mxGeometry x="45" y="80" width="10" height="342" as="geometry" />
+        </mxCell>
+        <mxCell id="yFhiEoL9sG4I5cicUTSf-6" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;Data base&lt;/b&gt;&lt;/font&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#6BB1D2;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="713" y="28" width="100" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="yFhiEoL9sG4I5cicUTSf-9" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Check mail and password validation&lt;/b&gt;&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="418" y="142" as="sourcePoint" />
+            <mxPoint x="762" y="142" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yFhiEoL9sG4I5cicUTSf-10" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Mail and password are valid&lt;/b&gt;&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="762" y="207" as="sourcePoint" />
+            <mxPoint x="418" y="207" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yFhiEoL9sG4I5cicUTSf-11" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Mail and password are invalid&lt;/b&gt;&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="762" y="304" as="sourcePoint" />
+            <mxPoint x="418" y="304" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yFhiEoL9sG4I5cicUTSf-17" value="&lt;b&gt;Alt&lt;/b&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" parent="1" vertex="1">
+          <mxGeometry x="14" y="163" width="787" height="193" as="geometry" />
+        </mxCell>
+        <mxCell id="yFhiEoL9sG4I5cicUTSf-22" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;[If mail &amp;amp;&lt;br&gt;password are&lt;br&gt;valid]&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="7" y="198" width="90" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="yFhiEoL9sG4I5cicUTSf-23" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.998;entryY=0.507;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.001;exitY=0.503;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="25.22499999999991" y="262.07899999999995" as="sourcePoint" />
+            <mxPoint x="799.45" y="262.851" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yFhiEoL9sG4I5cicUTSf-24" value="[Else]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="29" y="289" width="48" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ndBlIhgWlCvM5-CdHkPS-2" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Enter mail and password&lt;/b&gt;&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="95" y="119" as="sourcePoint" />
+            <mxPoint x="417" y="119" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ndBlIhgWlCvM5-CdHkPS-3" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Log the user in&lt;/b&gt;&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="417" y="237" as="sourcePoint" />
+            <mxPoint x="95" y="237" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ndBlIhgWlCvM5-CdHkPS-4" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Mail or password is incorrect&lt;/b&gt;&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="417" y="326" as="sourcePoint" />
+            <mxPoint x="95" y="326" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ndBlIhgWlCvM5-CdHkPS-5" value="&lt;b&gt;Loop&lt;/b&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" parent="1" vertex="1">
+          <mxGeometry x="5" y="251" width="815" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="ndBlIhgWlCvM5-CdHkPS-7" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="417" y="441" as="sourcePoint" />
+            <mxPoint x="95" y="441" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ndBlIhgWlCvM5-CdHkPS-8" value="&lt;b style=&quot;font-size: 14px;&quot;&gt;The system redirects the actor&lt;br&gt;to the appropriate dashboard&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ndBlIhgWlCvM5-CdHkPS-7" vertex="1" connectable="0">
+          <mxGeometry x="0.0112" y="1" relative="1" as="geometry">
+            <mxPoint y="-23" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ndBlIhgWlCvM5-CdHkPS-10" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#6BB1D2;" parent="1" vertex="1">
+          <mxGeometry x="758" y="133" width="10" height="177" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

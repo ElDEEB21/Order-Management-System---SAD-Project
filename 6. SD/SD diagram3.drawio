@@ -1,0 +1,102 @@
+<mxfile host="Electron" modified="2024-05-13T15:31:57.554Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.2.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="egmGBA9wVE2TqG3PtQ3k" version="24.2.5" type="device">
+  <diagram name="Page-1" id="0Odnqh4ww2hKoowr55Xo">
+    <mxGraphModel dx="1050" dy="629" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LN_RXh212xOXUrVfwd1p-1" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;fillColor=#6BB1D2;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="85" y="22" width="22" height="565" as="geometry" />
+        </mxCell>
+        <mxCell id="LN_RXh212xOXUrVfwd1p-2" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;System&lt;/b&gt;&lt;/font&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#6BB1D2;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="369" y="22" width="100" height="565" as="geometry" />
+        </mxCell>
+        <mxCell id="LN_RXh212xOXUrVfwd1p-3" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#6BB1D2;" parent="LN_RXh212xOXUrVfwd1p-2" vertex="1">
+          <mxGeometry x="45" y="80" width="10" height="463" as="geometry" />
+        </mxCell>
+        <mxCell id="LN_RXh212xOXUrVfwd1p-4" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;Data base&lt;/b&gt;&lt;/font&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#6BB1D2;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="714" y="22" width="100" height="565" as="geometry" />
+        </mxCell>
+        <mxCell id="LN_RXh212xOXUrVfwd1p-6" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Product with quantity is available&lt;/b&gt;&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="763" y="229" as="sourcePoint" />
+            <mxPoint x="419" y="229" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LN_RXh212xOXUrVfwd1p-7" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Product or quantity is not available&lt;/b&gt;&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="763" y="322" as="sourcePoint" />
+            <mxPoint x="419" y="322" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LN_RXh212xOXUrVfwd1p-8" value="&lt;b&gt;Alt&lt;/b&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" parent="1" vertex="1">
+          <mxGeometry x="15" y="189" width="787" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="LN_RXh212xOXUrVfwd1p-9" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;[If product is&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;available]&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="12" y="233" width="83" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="LN_RXh212xOXUrVfwd1p-10" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.998;entryY=0.507;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.001;exitY=0.503;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="26.22499999999991" y="286.07899999999995" as="sourcePoint" />
+            <mxPoint x="800.45" y="286.851" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LN_RXh212xOXUrVfwd1p-11" value="[Else]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="30" y="306" width="48" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="LN_RXh212xOXUrVfwd1p-12" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Enter product id and quantity&lt;/b&gt;&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="96" y="113" as="sourcePoint" />
+            <mxPoint x="416" y="113" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LN_RXh212xOXUrVfwd1p-13" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Price and subtotal&lt;/b&gt;&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="418" y="264" as="sourcePoint" />
+            <mxPoint x="96" y="264" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LN_RXh212xOXUrVfwd1p-14" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Re-enter your products&lt;/b&gt;&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="418" y="349" as="sourcePoint" />
+            <mxPoint x="96" y="349" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LN_RXh212xOXUrVfwd1p-15" value="&lt;b&gt;Loop&lt;/b&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" parent="1" vertex="1">
+          <mxGeometry x="6" y="149" width="815" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="LN_RXh212xOXUrVfwd1p-16" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="418" y="438" as="sourcePoint" />
+            <mxPoint x="96" y="438" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LN_RXh212xOXUrVfwd1p-17" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Total price&lt;/b&gt;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="LN_RXh212xOXUrVfwd1p-16" vertex="1" connectable="0">
+          <mxGeometry x="0.0112" y="1" relative="1" as="geometry">
+            <mxPoint y="-15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LN_RXh212xOXUrVfwd1p-18" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#6BB1D2;" parent="1" vertex="1">
+          <mxGeometry x="759" y="127" width="10" height="203" as="geometry" />
+        </mxCell>
+        <mxCell id="LN_RXh212xOXUrVfwd1p-19" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Check product and quantity availability&lt;/b&gt;&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;strokeWidth=2;entryX=0.1;entryY=0.051;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="LN_RXh212xOXUrVfwd1p-3" target="LN_RXh212xOXUrVfwd1p-18" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="431" y="136" as="sourcePoint" />
+            <mxPoint x="753" y="136" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LN_RXh212xOXUrVfwd1p-20" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Make payment&lt;/b&gt;&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="96" y="496" as="sourcePoint" />
+            <mxPoint x="414" y="496" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LN_RXh212xOXUrVfwd1p-21" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Payment made successfully&lt;/b&gt;&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="418" y="555" as="sourcePoint" />
+            <mxPoint x="96" y="555" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
